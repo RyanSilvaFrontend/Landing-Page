@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Landing Page Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Minha Landing Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#banner">Início</a></li>
+          <li><a href="#features">Recursos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="banner" class="banner">
+    <div class="container">
+      <h2>Seja bem-vindo à nossa página</h2>
+      <p>Descubra nossos produtos incríveis e serviços de alta qualidade.</p>
+      <a href="#features" class="btn">Ver Recursos</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Nossos Recursos</h2>
+      <div class="feature-item">
+        <h3>Recursos Fantásticos</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae urna sed ipsum tristique ultricies.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Serviços Premium</h3>
+        <p>Nulla facilisi. Nam vel sem sit amet arcu laoreet commodo vitae nec massa. Proin ut dapibus risus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Fale Conosco</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
